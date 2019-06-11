@@ -1,4 +1,5 @@
 const express = require("express");
+const app = express();
 
 // Server Static Assets while in production
 if (process.env.NODE_ENV === "production") {

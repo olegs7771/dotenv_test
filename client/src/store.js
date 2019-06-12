@@ -1,19 +1,19 @@
-import { createStore, applyMiddleware, compose } from "redux";
-import thunk from "redux-thunk";
-import rootReducer from "./reducers";
+// import { createStore, applyMiddleware, compose } from "redux";
+// import thunk from "redux-thunk";
+// import rootReducer from "./reducers";
 
-const initialState = {};
+// const initialState = {};
 
-const middleware = [thunk];
-console.log("process.env.NODE_ENV", process.env.NODE_ENV);
+// const middleware = [thunk];
+// console.log("process.env.NODE_ENV", process.env.NODE_ENV);
 
-const store = createStore(
-  rootReducer,
-  initialState,
-  compose(
-    applyMiddleware(...middleware)
-    // window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
-  )
-);
-export default store;
-//test
+// const store = createStore(
+//   rootReducer,
+//   initialState,
+//   compose(
+//     applyMiddleware(...middleware)
+//     // window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+//   )
+// );
+// export default store;
+// //test

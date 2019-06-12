@@ -11,7 +11,7 @@ function App() {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>This is my test app</p>
+          <p>This is my test app with Redux_env</p>
         </header>
       </div>
     </Provider>

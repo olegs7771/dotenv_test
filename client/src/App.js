@@ -6,6 +6,7 @@ import configureStore from "./store/configureStore";
 const store = configureStore();
 
 function App() {
+  console.log("store", store);
   return (
     <Provider store={store}>
       <div className="App">
